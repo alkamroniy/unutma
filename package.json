@@ -1,0 +1,30 @@
+{
+  "name": "unutma",
+  "version": "1.0.0",
+  "description": "Oson va qulay parol generatori",
+  "main": "main.js",
+  "exports": "./main.js",
+  "types": "src/generate.d.ts",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alkamroniy/unutma.git"
+  },
+  "keywords": [
+    "password",
+    "unique",
+    "secure",
+    "random"
+  ],
+  "author": "Kamron Fozilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alkamroniy/unutma/issues"
+  },
+  "homepage": "https://github.com/alkamroniy/unutma",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}
